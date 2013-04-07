@@ -39,3 +39,12 @@ i { font-family: "GoudyBookletterItalic", Georgia, serif; }
 h1 { font-size: 72px; }
 h2 { font-size: 24px; }
 h3 { font-size: 18px; font-variant: small-caps; }
+
+.avatar {
+  background: url(https://secure.gravatar.com/avatar/a0625ccfc630618784aaa58a37914dff?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png);
+  background-size: 48px 48px;
+  height: 48px;
+  width: 48px;
+  margin: 16px auto;
+  border-radius: 4px;
+}
