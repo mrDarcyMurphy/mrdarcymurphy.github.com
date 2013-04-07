@@ -16,7 +16,7 @@
        url('../font/GoudyStM-Italic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 400; margin: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; margin: 0; line-height: 2em; }
 
 body {
   background: #2E4347;
@@ -28,7 +28,7 @@ body {
 a {
   color: #FFF8D4;
   text-decoration: none;
-  box-shadow: inset 0 -3px 0 #2E4347, inset 0 -4px 0 #FFB884;
+  box-shadow: inset 0 -3px 0 #2E4347, inset 0 -4px 0 rgba(255, 184, 132, 0.5);
               /* match BG */          /* line */
 }
 a:hover { box-shadow: inset 0 -2px 0 #2E4347, inset 0 -4px 0 #FFB884; }
