@@ -16,29 +16,20 @@
        url('../font/GoudyStM-Italic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 400; margin: 0; line-height: 2em; }
 
-body {
-  background: #2E4347;
-  color: #FFF8D4;
-  font: 16px "GoudyBookletter", Georgia, serif;
-  text-align: center;
-}
+body        { background: #2E4347; color: #FFF8D4; font: 16px "GoudyBookletter", Georgia, serif; text-align: center; }
 
-a {
-  color: #FFF8D4;
-  text-decoration: none;
-  box-shadow: inset 0 -3px 0 #2E4347, inset 0 -4px 0 rgba(255, 184, 132, 0.5);
-              /* match BG */          /* line */
-}
-a:hover { box-shadow: inset 0 -2px 0 #2E4347, inset 0 -4px 0 #FFB884; }
+a           { color: #FFF8D4; text-decoration: none; box-shadow: inset 0 -3px 0 #2E4347, inset 0 -4px 0 rgba(255, 184, 132, 0.5); }
+a:hover     { box-shadow: inset 0 -2px 0 #2E4347, inset 0 -4px 0 #FFB884; }
 
+i           { font-family: "GoudyBookletterItalic", Georgia, serif; }
+.ampersand  { padding: 0 0.35em 0 0.25em; }
 
-i { font-family: "GoudyBookletterItalic", Georgia, serif; }
-
-h1 { font-size: 72px; }
-h2 { font-size: 24px; }
-h3 { font-size: 18px; font-variant: small-caps; }
+h1, h2, h3, 
+h4, h5, h6  { font-weight: 400; margin: 0; line-height: 2em; }
+h1          { font-size: 72px; }
+h2          { font-size: 24px; }
+h3          { font-size: 18px; font-variant: small-caps; }
 
 .avatar {
   background: url(https://secure.gravatar.com/avatar/a0625ccfc630618784aaa58a37914dff?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png);
@@ -48,5 +39,5 @@ h3 { font-size: 18px; font-variant: small-caps; }
   width: 48px;
   margin: 16px auto;
   border-radius: 4px;
-  box-shadow: none;
+  box-shadow: none !important;
 }
