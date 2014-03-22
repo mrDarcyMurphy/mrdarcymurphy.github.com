@@ -1,43 +1,49 @@
-@font-face {
-  font-family: 'GoudyBookletter';
-  src: url('..//font/GoudyStM-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../font/GoudyStM-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/GoudyStM-webfont.woff') format('woff'), /* Modern Browsers */
-       url('../font/GoudyStM-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../font/GoudyStM-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
 
-@font-face {
-  font-family: 'GoudyBookletterItalic';
-  src: url('../font/GoudyStM-Italic-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../font/GoudyStM-Italic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/GoudyStM-Italic-webfont.woff') format('woff'), /* Modern Browsers */
-       url('../font/GoudyStM-Italic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../font/GoudyStM-Italic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-  }
+body {
+  background: #252525;
+  color: #efefef;
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", Verdana, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #c2554f;
+  text-decoration: none;
+}
+
+header {
+  background: #c2554f;
+  color: #efefef;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+header a {
+  color: #efefef;
+}
 
 
-body        { background: #2E4347; color: #FFF8D4; font: 16px "GoudyBookletter", Georgia, serif; text-align: center; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Foro Rounded", "Foro", "Adelle", serif;
+  margin: 0;
+}
 
-a           { color: #FFF8D4; text-decoration: none; box-shadow: inset 0 -3px 0 #2E4347, inset 0 -4px 0 rgba(255, 184, 132, 0.5); }
-a:hover     { box-shadow: inset 0 -2px 0 #2E4347, inset 0 -4px 0 #FFB884; }
+h1 { font-size: 36px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
 
-i           { font-family: "GoudyBookletterItalic", Georgia, serif; }
-.ampersand  { padding: 0 0.35em 0 0.25em; }
+article section, article footer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
 
-h1, h2, h3, 
-h4, h5, h6  { font-weight: 400; margin: 0; line-height: 2em; }
-h1          { font-size: 72px; }
-h2          { font-size: 24px; }
-h3          { font-size: 18px; font-variant: small-caps; }
-
-.avatar {
-  background: url(http://mrdarcymurphy.com/img/painted-darcy.jpg);
-  background-size: 48px 48px;
-  display: block;
-  height: 48px;
-  width: 48px;
-  margin: 16px auto;
-  border-radius: 4px;
-  box-shadow: none !important;
+article footer {
+  border-top: 1px dotted #121212;
 }

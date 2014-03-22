@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Mr. Darcy Murphy</title>
-    <link rel="stylesheet" href="/css/mrDarcyMurphy.css" />
-  </head>
-  <body>
-    <header>
-      <h1>&lsaquo; Mr. Darcy Murphy &rsaquo;</h1>
-      <h2>
-        <a href="http://dribbble.com/mrDarcyMurphy">Designer</a>
-        <i class="ampersand">&amp;</i>
-        <a href="http://github.com/mrDarcyMurphy">Developer</a>
-      </h2>
-    </header>
-    <a class="avatar" href="http://twitter.com/mrDarcyMurphy"></a>
-  </body>
-</html>
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
