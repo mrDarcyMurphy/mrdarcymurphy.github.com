@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-03-18 11:31:05
+title: "Welcome to Jekyll!"
+date: {}
 categories: jekyll update
+published: true
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
@@ -22,3 +23,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
+
+Testing, Testing.
+
+This is alright so far. Hopefully it'll work on an iThing.
