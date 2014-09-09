@@ -27,3 +27,5 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 Testing, Testing.
 
 This is alright so far. Hopefully it'll work on an iThing.
+
+so far, so good. i guess. not really sure if ill use it or not. its certainly not tweet bot easy, but its about the easiest of anything yet. 
