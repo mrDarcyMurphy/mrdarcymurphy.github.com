@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  background: #eaeae8;
+  background: #eaeae8 url(../img/background-small.jpg);
   color: #3b3b3b;
   font: 16px "Avenir Next", Avenir, "Helvetica Neue", "Verdana", sans-serif;
   padding: 0 16px;
