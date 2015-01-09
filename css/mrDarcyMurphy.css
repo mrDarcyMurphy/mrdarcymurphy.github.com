@@ -42,8 +42,29 @@ article {
 }
 
 header {
-  border-bottom: 1px solid #c2554f;
-  padding: 16px 0;
+  background: url(../img/Leaf.svg) 50% 100% no-repeat;
+  background-size: 16px 16px;
+  padding: 16px 0 32px;
+  position: relative;
+}
+
+header:before,
+header:after {
+  content: " ";
+  position: absolute;
+  height: 1px;
+  width: 50%;
+  bottom: 8px;
+}
+
+header:before {
+  background-image: linear-gradient(to left, transparent 0, transparent 16px, #c2554f 16px);
+  left: 0;
+}
+
+header:after {
+  background-image: linear-gradient(to right, transparent 0, transparent 16px, #c2554f 16px);
+  right: 0;
 }
 
 header h1 {
