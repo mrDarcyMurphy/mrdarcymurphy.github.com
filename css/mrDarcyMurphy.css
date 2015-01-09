@@ -39,6 +39,7 @@ body {
 article {
   margin: 0 auto;
   max-width: 576px;
+  width: 100%;
 }
 
 header {
@@ -98,13 +99,14 @@ a {
 }
 
 .column {
-  display: inline-block;
-  vertical-align: top;
+  display: block;
+  float: left;
+  width: 100%;
 }
 
 @media all and (min-width: 616px) {
   .column { max-width: 272px; }
-  .column + .column {
-    margin-left: 24px;
+  .column:nth-child(odd) {
+    float: right;
   }
 }
