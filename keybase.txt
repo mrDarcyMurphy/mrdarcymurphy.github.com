@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/mrdarcymurphy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mrdarcymurphy.com
+  * I am mrdarcymurphy (https://keybase.io/mrdarcymurphy) on keybase.
+  * I have a public key ASBmTQgh1INZVLiQPZxFM0ZPwHiAUD9KuX1uIpSHx_mmyQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120664d0821d4835954b8903d9c4533464fc07880503f4ab97d6e229487c7f9a6c90a",
+            "host": "keybase.io",
+            "kid": "0120664d0821d4835954b8903d9c4533464fc07880503f4ab97d6e229487c7f9a6c90a",
+            "uid": "b7c2895550b5ac837c5d94c68d2ecf00",
+            "username": "mrdarcymurphy"
+        },
+        "service": {
+            "hostname": "mrdarcymurphy.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1497718242,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1497717990,
+        "hash": "20eb6d8aa674209fc44b2f6811f8d9d8c4063b42634d4046bb235b9c614850b06979e27637ebfabd1e7556db9b8d84a113e32c076fb54197a7d603620699ccae",
+        "seqno": 1177179
+    },
+    "prev": "02f2e287ae9bbed49dcc13286675ef33e9c6a015814479a80acdf9ddf8c63269",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZk0IIdSDWVS4kD2cRTNGT8B4gFA/Srl9biKUh8f5pskKp3BheWxvYWTFAv97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjY0ZDA4MjFkNDgzNTk1NGI4OTAzZDljNDUzMzQ2NGZjMDc4ODA1MDNmNGFiOTdkNmUyMjk0ODdjN2Y5YTZjOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjY0ZDA4MjFkNDgzNTk1NGI4OTAzZDljNDUzMzQ2NGZjMDc4ODA1MDNmNGFiOTdkNmUyMjk0ODdjN2Y5YTZjOTBhIiwidWlkIjoiYjdjMjg5NTU1MGI1YWM4MzdjNWQ5NGM2OGQyZWNmMDAiLCJ1c2VybmFtZSI6Im1yZGFyY3ltdXJwaHkifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im1yZGFyY3ltdXJwaHkuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMyJ9LCJjdGltZSI6MTQ5NzcxODI0MiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk3NzE3OTkwLCJoYXNoIjoiMjBlYjZkOGFhNjc0MjA5ZmM0NGIyZjY4MTFmOGQ5ZDhjNDA2M2I0MjYzNGQ0MDQ2YmIyMzViOWM2MTQ4NTBiMDY5NzllMjc2MzdlYmZhYmQxZTc1NTZkYjliOGQ4NGExMTNlMzJjMDc2ZmI1NDE5N2E3ZDYwMzYyMDY5OWNjYWUiLCJzZXFubyI6MTE3NzE3OX0sInByZXYiOiIwMmYyZTI4N2FlOWJiZWQ0OWRjYzEzMjg2Njc1ZWYzM2U5YzZhMDE1ODE0NDc5YTgwYWNkZjlkZGY4YzYzMjY5Iiwic2Vxbm8iOjE0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKHsGh+a4S0q34eLVB/8qXyHa6ajLjlnjUd6a0Qgco+LSG/vWZMoVZ8rjsN31PhLfAOrqCpwJvQQfhdgVKA71ACoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBi0TTm0tu+GVBCiMZzmr5KqT6wWP2BQc9497o41LBO0qN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrdarcymurphy
+
+==================================================================
