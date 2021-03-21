@@ -1,5 +1,5 @@
 body {
-  background: center / cover no-repeat #242424 url('../img/nothing-special.jpg');
+  background: center / cover no-repeat #242424 url('../img/looking-up.jpg');
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -13,11 +13,6 @@ body {
   height: 100vh;
   margin: 0 auto;
   max-width: 1280px;
-}
-
-#mr-darcy-murphy {
-  width: 90%;
-  margin: 0 auto;
 }
 
 #seven {
