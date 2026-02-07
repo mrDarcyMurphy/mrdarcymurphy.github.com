@@ -9,6 +9,22 @@
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
+        <filter id="strong-glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="10" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="bolt-glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="6" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
     </defs>
     <g transform="rotate(45, 156.5, 153)">
         <!-- Back arc of accretion disk (dimmer, behind hole) -->
@@ -21,24 +37,60 @@
                  fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="14"
                  filter="url(#glow)"/>
 
+        <!-- Event horizon glow ring -->
+        <circle cx="156.5" cy="153" r="36" fill="none"
+                stroke="rgba(255,255,255,0.15)" stroke-width="6"
+                filter="url(#strong-glow)"/>
+
         <!-- Event horizon -->
         <circle cx="156.5" cy="153" r="30" fill="#000000"/>
-        <circle cx="156.5" cy="153" r="30" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+        <circle cx="156.5" cy="153" r="30" fill="none"
+                stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
 
         <!-- Front arc of accretion disk (brighter, in front of hole) -->
         <path d="M 234.5,153 A 78,26 0 0,1 78.5,153"
               fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2.5"
               filter="url(#glow)"/>
 
-        <!-- Lightning spike - north pole -->
+        <!-- Lightning north - energy channel glow -->
         <polyline points="156.5,123 149,98 160,90 152,62 164,52 155,28"
-                  fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="2"
+                  fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#bolt-glow)"/>
+        <!-- Lightning north - main bolt -->
+        <polyline points="156.5,123 149,98 160,90 152,62 164,52 155,28"
+                  fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#glow)"/>
+        <!-- Lightning north - fork A -->
+        <polyline points="160,90 170,80 166,68"
+                  fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#glow)"/>
+        <!-- Lightning north - fork B -->
+        <polyline points="152,62 142,55 146,44"
+                  fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"
                   stroke-linecap="round" stroke-linejoin="round"
                   filter="url(#glow)"/>
 
-        <!-- Lightning spike - south pole -->
+        <!-- Lightning south - energy channel glow -->
         <polyline points="156.5,183 164,208 153,216 161,244 149,254 158,278"
-                  fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="2"
+                  fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#bolt-glow)"/>
+        <!-- Lightning south - main bolt -->
+        <polyline points="156.5,183 164,208 153,216 161,244 149,254 158,278"
+                  fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#glow)"/>
+        <!-- Lightning south - fork A -->
+        <polyline points="153,216 143,224 147,236"
+                  fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#glow)"/>
+        <!-- Lightning south - fork B -->
+        <polyline points="161,244 171,250 167,262"
+                  fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"
                   stroke-linecap="round" stroke-linejoin="round"
                   filter="url(#glow)"/>
     </g>
