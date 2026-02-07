@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="313px" height="306px" viewBox="0 0 313 306" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>black-hole</title>
+    <defs>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g transform="rotate(45, 156.5, 153)">
+        <!-- Back arc of accretion disk (dimmer, behind hole) -->
+        <path d="M 78.5,153 A 78,26 0 0,1 234.5,153"
+              fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2.5"
+              filter="url(#glow)"/>
+
+        <!-- Soft glow around full disk -->
+        <ellipse cx="156.5" cy="153" rx="78" ry="26"
+                 fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="14"
+                 filter="url(#glow)"/>
+
+        <!-- Event horizon -->
+        <circle cx="156.5" cy="153" r="30" fill="#000000"/>
+        <circle cx="156.5" cy="153" r="30" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+
+        <!-- Front arc of accretion disk (brighter, in front of hole) -->
+        <path d="M 234.5,153 A 78,26 0 0,1 78.5,153"
+              fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2.5"
+              filter="url(#glow)"/>
+
+        <!-- Lightning spike - north pole -->
+        <polyline points="156.5,123 149,98 160,90 152,62 164,52 155,28"
+                  fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#glow)"/>
+
+        <!-- Lightning spike - south pole -->
+        <polyline points="156.5,183 164,208 153,216 161,244 149,254 158,278"
+                  fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  filter="url(#glow)"/>
+    </g>
+</svg>
