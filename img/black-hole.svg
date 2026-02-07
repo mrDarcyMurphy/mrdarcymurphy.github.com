@@ -27,30 +27,21 @@
         </filter>
     </defs>
     <g transform="rotate(45, 156.5, 153)">
-        <!-- Back arc of accretion disk (dimmer, behind hole) -->
-        <path d="M 78.5,153 A 78,26 0 0,1 234.5,153"
-              fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2.5"
-              filter="url(#glow)"/>
-
-        <!-- Soft glow around full disk -->
-        <ellipse cx="156.5" cy="153" rx="78" ry="26"
-                 fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="14"
-                 filter="url(#glow)"/>
-
         <!-- Event horizon glow ring -->
-        <circle cx="156.5" cy="153" r="36" fill="none"
+        <circle cx="156.5" cy="153" r="32" fill="none"
                 stroke="rgba(255,255,255,0.15)" stroke-width="6"
                 filter="url(#strong-glow)"/>
 
-        <!-- Event horizon -->
-        <circle cx="156.5" cy="153" r="30" fill="#000000"/>
-        <circle cx="156.5" cy="153" r="30" fill="none"
-                stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+        <!-- Event horizon glow ring mid -->
+        <circle cx="156.5" cy="153" r="31" fill="none"
+                stroke="rgba(255,255,255,0.15)" stroke-width="3"
+                filter="url(#strong-glow)"/>
 
-        <!-- Front arc of accretion disk (brighter, in front of hole) -->
-        <path d="M 234.5,153 A 78,26 0 0,1 78.5,153"
-              fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2.5"
-              filter="url(#glow)"/>
+
+        <!-- Event horizon -->
+        <circle cx="156.5" cy="153" r="30" fill="none"
+                stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+
 
         <!-- Lightning north - energy channel glow -->
         <polyline points="156.5,123 149,98 160,90 152,62 164,52 155,28"
@@ -93,5 +84,8 @@
                   fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"
                   stroke-linecap="round" stroke-linejoin="round"
                   filter="url(#glow)"/>
+
+        <!-- black hole -->
+        <circle cx="156.5" cy="153" r="30" fill="#000000"/>
     </g>
 </svg>
